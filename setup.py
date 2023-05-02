@@ -10,7 +10,7 @@ with open(os.path.join(current_path, 'README.md'), encoding='utf-8') as f:
 
 
 setup(
-    name='tensorflow-fork'
+    name='tensorflow-fork',
     packages=find_packages(exclude=('*.pyc',)),
     version='1.15.2.0'
     license='MIT', 
