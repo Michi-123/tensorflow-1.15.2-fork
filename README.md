@@ -1,4 +1,4 @@
-pip install numpy==1.16.4
+
 <div align="center">
   <img src="https://www.tensorflow.org/images/tf_logo_social.png">
 </div>
@@ -6,6 +6,8 @@ pip install numpy==1.16.4
 | **`Documentation`** |
 |-----------------|
 | [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.tensorflow.org/api_docs/) |
+
+pip install numpy==1.16.4
 
 [TensorFlow](https://www.tensorflow.org/) is an end-to-end open source platform
 for machine learning. It has a comprehensive, flexible ecosystem of
