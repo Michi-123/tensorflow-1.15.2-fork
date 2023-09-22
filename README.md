@@ -1,3 +1,4 @@
+pip install numpy==1.16.4
 <div align="center">
   <img src="https://www.tensorflow.org/images/tf_logo_social.png">
 </div>
