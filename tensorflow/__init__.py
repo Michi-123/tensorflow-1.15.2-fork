@@ -1,4 +1,4 @@
-# Copyright 2015 The tensorflow1 Authors. All Rights Reserved.
+# Copyright 2015 The tensorflow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
 # limitations under the License.
 # ==============================================================================
 
-# Bring in all of the public tensorflow1 interface into this
+# Bring in all of the public tensorflow interface into this
 # module.
 
 from __future__ import absolute_import
@@ -21,14 +21,14 @@ from __future__ import division
 from __future__ import print_function
 
 # pylint: disable=g-bad-import-order
-from tensorflow1.python import pywrap_tensorflow1  # pylint: disable=unused-import
+from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
 
-from tensorflow1.python.util.lazy_loader import LazyLoader
-contrib = LazyLoader('contrib', globals(), 'tensorflow1.contrib')
+from tensorflow.python.util.lazy_loader import LazyLoader
+contrib = LazyLoader('contrib', globals(), 'tensorflow.contrib')
 del LazyLoader
 
-from tensorflow1.python.platform import flags  # pylint: disable=g-import-not-at-top
-from tensorflow1.python.platform import app  # pylint: disable=g-import-not-at-top
+from tensorflow.python.platform import flags  # pylint: disable=g-import-not-at-top
+from tensorflow.python.platform import app  # pylint: disable=g-import-not-at-top
 app.flags = flags
 
 del absolute_import
@@ -36,7 +36,7 @@ del division
 del print_function
 
 # These symbols appear because we import the python package which
-# in turn imports from tensorflow1.core and tensorflow1.python. They
+# in turn imports from tensorflow.core and tensorflow.python. They
 # must come from this module. So python adds these symbols for the
 # resolution to succeed.
 # pylint: disable=undefined-variable
