@@ -10,16 +10,16 @@ with open(os.path.join(current_path, 'README.md'), encoding='utf-8') as f:
 
 
 setup(
-    name='tensorflow1-fork',
+    name='tensorflow1',
     packages=find_packages(exclude=('*.pyc',)),
-    version='1.15.2.2',
+    version='1.15.2.3',
     license='MIT', 
     install_requires=[],
     author='M.Uchiyama',
     description='tensorflow_1.15.2', 
     long_description=long_description,
     long_description_content_type='text/markdown', 
-    keywords='TensorFlowFork', 
+    keywords='TensorFlow fork', 
 
     classifiers=[
         'License :: OSI Approved :: MIT License',
